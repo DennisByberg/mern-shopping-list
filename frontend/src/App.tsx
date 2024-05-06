@@ -1,10 +1,9 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import "./App.css";
 import Cart from "./pages/Cart";
 import HomePage from "./pages/HomePage";
 import { Layout } from "./pages/Layout";
 
-function App() {
+const App = () => {
   return (
     <BrowserRouter>
       <Layout>
@@ -15,6 +14,6 @@ function App() {
       </Layout>
     </BrowserRouter>
   );
-}
+};
 
 export default App;
